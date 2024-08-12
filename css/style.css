@@ -10,11 +10,11 @@
 }
 
 #carousel .carousel-item img {
-    max-height: 300px;
+    max-height: 350px;
     width: auto;
     height: auto;
     max-width: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .size-100 {
@@ -45,6 +45,7 @@ footer img {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    height: 100%;
   }
 
   .card img {
@@ -56,5 +57,51 @@ footer img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-grow: 1;
   }
+
+.card-text {
+    flex-grow: 1;
+}
+
+#form-check {
+ display: flex; 
+  flex-direction: column;/*
+  align-items: center;
+  */
+}
+
+#categorias {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  
+}
+
+.form-inline {
+  display: flex;
+  justify-content: space-between;
+}
+
+#searchInput {
+  width: 300px;
+}
+
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.img-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 
